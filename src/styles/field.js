@@ -6,13 +6,15 @@ import {css} from 'glamor';
 const entry = css.keyframes({
   '0%' : { opacity : 0} ,
   '100%' : { opacity : 1},
-})
+});
 
 export const click = css.keyframes({
   '0%' : { transform : 'scale(1)'},
   '50%' : { transform : 'scale(1.1)'},
   '100%' : { transform : 'scale(1)'}
-})
+});
+
+
 
 // OBJECT with styles to use inside component
 export default {
@@ -22,7 +24,7 @@ export default {
     height : '25vh',
     maxWidth : '25vw',
     maxHeight : '25vw',
-    backgroundColor : '#a3dfae',
+    backgroundColor : '#23324e',
     animation : entry +' 1s',
     textAlign : 'center',
     alignItems : 'center',
@@ -47,6 +49,16 @@ export default {
     margin : '0 auto',
     width : '100%',
     height : '100%',
+  }),
+  blocked : css({
+    userSelect: 'none',
+    WebkitUserSelect : 'none',
+    MozUserSelect : 'none',
+    MsUserSelect : 'none',
+    userDrag : 'none',
+    WebkitUserDrag : 'none',
+    MozUserDrag : 'none',
+    MsUserDrag : 'none',
   }),
 };
 

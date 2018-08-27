@@ -67,7 +67,7 @@ class Field extends React.Component {
    */
   renderImg(ev){
       if(this.state.value && ev){
-        ev.target.innerHTML = `<img src=${this.state.value} class='${css.img}'></img>`
+        ev.target.innerHTML = `<img src=${this.state.value} class='${css.img} ${css.blocked}'></img>`
       }
   }
 

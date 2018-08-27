@@ -14,13 +14,13 @@ export default {
     width: '85vh',
     height : '85vh',
     margin : '10px auto',
-    borderRadius : '2em',
-    backgroundColor : '#a6b5e1',
+    borderRadius : '5%',
+    backgroundColor : '#c07020',
     display : 'flex',
-    verticalAlign : 'middle'
+    verticalAlign : 'middle',
   },
   {
-    '@media (max-width : 768px)' : {
+    '@media (max-width : 1240px)' : {
       width: '85vw',
       height : '85vw',
       maxWidth : '85vh',
